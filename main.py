@@ -23,3 +23,9 @@ def multiply(a: int, b: int) -> int:
 def webhook_test() -> str:
     """Function to test webhook roundtrip."""
     return "webhook working!"
+
+def divide(a: int, b: int) -> float:
+    """Divide two numbers."""
+    if b == 0:
+        raise ValueError("Cannot divide by zero")
+    return a / b

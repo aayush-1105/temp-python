@@ -23,4 +23,4 @@ def multiply(a: int, b: int) -> int:
 def webhook_test() -> str:
     """Function to test webhook roundtrip."""
     return "webhook working!"
-print(2+a)
+

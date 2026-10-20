@@ -18,3 +18,8 @@ if __name__ == "__main__":
 def multiply(a: int, b: int) -> int:
     """Multiply two numbers."""
     return a * b
+
+
+def webhook_test() -> str:
+    """Function to test webhook roundtrip."""
+    return "webhook working!"
